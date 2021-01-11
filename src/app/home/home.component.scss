@@ -1,0 +1,31 @@
+.doing {
+  width: 100%;
+  height: 300px;
+  padding: 16px;
+
+  background-color: greenyellow;
+}
+
+.list-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+
+  background-color: hotpink;
+
+  .list {
+    width: 400px;
+    padding: 16px;
+    background-color: lightsalmon;
+    &.todo {
+      margin-right: 16px;
+    }
+    &.pending {
+      margin-right: 64px;
+    }
+
+    height: 600px;
+  }
+}
